@@ -154,17 +154,21 @@ hr {
     border: 2px solid #f23f54;
     margin: -5px 0 5px 0;
 }
-#contact {
+span {
     margin-left : 10px;
     font-size: 1em;
 }
 body {
-    font-family: Futura, Arial, sans-serif;
+    font-family: Oswald, Futura, Arial, sans-serif;
     color: #3B3B3B;
 }
 #main {
     margin: 50px auto;
-    width: 40%;
+    width: 210px;
+}
+a {
+  font-family: Georgia, serif;
+  text-decoration: none;
 }
 a,
-a:visited { color: #666 }
+a:visited { color: #aaa }
