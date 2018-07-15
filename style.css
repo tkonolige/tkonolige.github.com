@@ -148,27 +148,45 @@ table {
 }
 h1 {
     margin: 0;
+    font-size: 4em;
+    line-height: 1em;
+    font-family: Oswald, Futura, Arial, sans-serif;
+    color: #3B3B3B;
+    width: 210px;
+}
+h2 {
     font-size: 2em;
+    font-family: Oswald, Futura, Arial, sans-serif;
+    color: #3B3B3B;
 }
 hr {
     border: 2px solid #f23f54;
     margin: -5px 0 5px 0;
 }
 span {
-    margin-left : 10px;
     font-size: 1em;
+    margin-right: 1em;
 }
 body {
-    font-family: Oswald, Futura, Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
     color: #3B3B3B;
 }
 #main {
     margin: 50px auto;
-    width: 210px;
-}
-a {
-  font-family: Georgia, serif;
-  text-decoration: none;
+    width: 500px;
 }
 a,
-a:visited { color: #aaa }
+a:visited {
+  color: #3B3B3B;
+}
+a:hover {
+  color: #f23f54;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 1em;
+}
